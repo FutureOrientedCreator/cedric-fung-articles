@@ -1,16 +1,17 @@
-Mixin Safe 多签冷钱包
+# Mixin Safe 多签冷钱包
 
 人
 2022-11-14 18:16
 
 字数: 2720
 
-TIP 协议在 Mixin Messenger 上正式上线是 Mixin 连接一切资产、网络和钱包的最后一步，由此出发 Mixin Messenger 可以满足所有人对加密货币一切安全与便利相关的需求。
+> TIP 协议在 Mixin Messenger 上正式上线是 Mixin 连接一切资产、网络和钱包的最后一步，由此出发 Mixin Messenger 可以满足所有人对加密货币一切安全与便利相关的需求。
 
 Mixin Messenger 上线已经马上五周年了，在过去的五年里，MM 一直都是 Mixin Network 这个网络最主要的钱包。也就是说，虽然你可以通过 MM 这个钱包存储并使用超过 40 种不同区块链网络上的资产，但是这一切都是建立在 Mixin Network 之上的。
 
 我们从成立之初就承诺 Mixin 具备连接一切网络、资产和钱包的能力，随着今年 MVM 的正式上线，Mixin Network 已经可以连接所有常用的 Ethereum 钱包，而近期 TIP 协议在 Mixin Messenger 的正式上线又让 MM 可以连接所有网络成为可能。
-Lightning Wallet 闪电钱包
+
+## Lightning Wallet 闪电钱包
 
 上面的图片以 Bitcoin 网络为例，其实是支持所有 Mixin Network 已经支持的 40 多种区块链的。可以看到我们已经上线了 Mixin Kernel 与 Mixin Messenger 的 TIP 与电话号码功能，其中的 Lightning Wallet 模块就是 Mixin Messenger 构建在 Mixin Network 之上的现在钱包功能，方便的支持数千种加密货币，并且可以使用各种 Mixin Network 里基于 MTG 的去中心化应用。
 
@@ -19,14 +20,16 @@ Mixin Messenger 的闪电钱包从上线之初就一直把安全与便利放在�
 Mixin Messenger 已经包含了紧急联系人功能来作为账号登录选项，但是这对一些电子审查非常严重的国家居民来说显然是不够的。私钥登录功能可以让用户在电话号码之外增加一个自己的私钥来作为紧急登录选项，以避免可能的电话号码丢失现象。当然需要明确的是，用户依然需要电话号码来注册新账户，同时这个私钥仅仅是登录可用，具体的交易依然需要 TIP 协议签名。
 
 过去 5 年，Mixin Messenger 的用户密码一直都是 6 位数字的 PIN 码，而 Mixin 也用 5 年的时间、高达 10 亿美金的总资产以及 0 网络安全事故来证明了这一技术方案的安全与便利。但是我们不会止步于此，很多用户都有自己成熟的复杂密码管理系统，MM 后续会允许用户设置任意复杂度的密码来满足他们对安全极致的需求。
-Hot Wallet 热钱包
+
+## Hot Wallet 热钱包
 
 上述关于 Lightning Wallet 闪电钱包的更新依然只是 Mixin Messenger 对现有 Mixin Network 这唯一支持的网络的功能强化，而图中的 Hot Wallet 热钱包模块则是 TIP 上线之后的一大新增功能，让 MM 具有直接访问和操作 40 多种不同的区块链网络的能力。
 
 在 TIP 上线之后，Mixin Messenger 首先会增加客户端加密签名的支持，由此可以让 MM 方便的直接访问所有常见的区块链，也就是你可以直接通过 MM 使用 Ethereum 网络上的 Uniswap 和 AAVE 等应用，而不再需要额外安装其他加密货币钱包，当然这一切都是建立在 MM 长久以来的便利与安全体验之上的。
 
 在 Mixin Messenger 的热钱包功能上线之后，MM 的用户将可以用同一个 TIP 密码来安心的操作自己所有的区块链资产网络与应用，避免了使用其他复杂的加密货币钱包可能带来的私钥丢失风险，也让用户可以便利的使用同一个钱包在不同网络间规划自己的资产。
-Mixin Safe 多签冷钱包
+
+## Mixin Safe 多签冷钱包
 
 既然我们说到要让 Mixin 成为加密货币用户管理资产的一站式服务平台，那用户对不同资产规模的安全需求强度是不一样的，所以我们在 Mixin 的产品系列中增加了 Mixin Safe 多签冷钱包模块。就像 Mixin 的热钱包模块非常方便易用一样，Mixin Safe 在设计上依然延续了 Mixin Messenger 的安全与便利的传统。
 
@@ -34,9 +37,9 @@ Screenshot from 2022-11-14 07-24-43.png上图是 Mixin Safe 整体的安全模�
 
 Mixin Safe 从 Bitcoin 网络最底层开始是一个 2/3 多签的脚本，参与方是 Mixin Kernel MPC，Holder Key 与 Domain Key MPC，这三者中的任意两者都可以解锁这个脚本里的资产。虽然这表面上看起来是一个参与人最多只有三个的非常弱的多签组，并且用户仅掌握一个私钥，但实际上这个钱包的每一个参与者都非常复杂，共同维护了一个极致安全的冷钱包方案。
 
-    Mixin Kernel MPC —— 这个从名字可以看出来是基于现有 Mixin Network 主网的一个 MPC 网络，按照现在的数据是 26 个节点。也就是说，这个私钥是一个 16/27 的多签私钥，而这个网络已经管理 10 亿美金资产稳定运行了超过 5 年，充分证明了这个网络的健壮与安全性。
-    Holder Key —— 这个代表了用户自己通过任意方案管理的一个特定的私钥，可能是直接通过 Mixin Messenger 的 TIP 协议管理的，也可能是通过团队多个成员的 Mixin Messenger 共同管理的 TIP MPC 多签组，还可能是自己的硬件钱包，甚至是 Metamask 这样的热钱包方案。
-    Domain Key MPC —— 这是 Mixin Network 里任意一个 Domain 维护的自己的 MPC 网络，当然现在系统里的 Domain 只有我们负责运行的这一个，所以这也可以认为是我们团队负责管理的一个 5/7 的多签私钥。
+- Mixin Kernel MPC —— 这个从名字可以看出来是基于现有 Mixin Network 主网的一个 MPC 网络，按照现在的数据是 26 个节点。也就是说，这个私钥是一个 16/27 的多签私钥，而这个网络已经管理 10 亿美金资产稳定运行了超过 5 年，充分证明了这个网络的健壮与安全性。
+- Holder Key —— 这个代表了用户自己通过任意方案管理的一个特定的私钥，可能是直接通过 Mixin Messenger 的 TIP 协议管理的，也可能是通过团队多个成员的 Mixin Messenger 共同管理的 TIP MPC 多签组，还可能是自己的硬件钱包，甚至是 Metamask 这样的热钱包方案。
+- Domain Key MPC —— 这是 Mixin Network 里任意一个 Domain 维护的自己的 MPC 网络，当然现在系统里的 Domain 只有我们负责运行的这一个，所以这也可以认为是我们团队负责管理的一个 5/7 的多签私钥。
 
 这三者平时只有 Mixin Kernel MPC 与 Holder Key 会同步工作，而 Domain Key MPC 只是作为最终的安全备份保存在非常高安全级别的银行保险箱里，当用户私钥不慎丢失时，可以通过一系列安全流程最终使用这个私钥与 Mixin Kernel MPC 协作来取回用户资产，避免加密货币领域最严重的损失类型。
 
