@@ -5,7 +5,7 @@
 字数: 1422
 
 Mixin 正在按时计划完成去中心化的组织转变，本文是 Observer MAO 的英文文章的翻译，也算是第一次完整的向英文社区详细的阐述我们的理念与产品，原文 https://quail.ink/observermao/p/mixin 是免费的。
-![Alt text](image.png)
+![Alt text](Mixin的Observer是个MAO/image.png)
 现在是第一个 MAO（Mixin 观察者）诞生的时候了。
 
 一切都始于一个不起眼的想法，让人们能够以私人方式自由访问金融和消息系统。从第一天起，我们就知道我们构建的东西应该始终注重隐私、以人为本、并由人们拥有。
@@ -20,7 +20,7 @@ Mixin 正在按时计划完成去中心化的组织转变，本文是 Observer M
 
 我们相信并建设，日日夜夜，不停歇，毫无疑问，永远兴奋。 人们很少听说我们，但我们从 100BTC 增长到 20000BTC，从数百名早期采用者增长到 10 万活跃会员。 我们很高兴看到整个加密社区终于通过帐户抽象或社交恢复来追赶我们的第一天设计。
 
-![Alt text](image-1.png)
+![Alt text](Mixin的Observer是个MAO/image-1.png)
 
 如今，人们在 Mixin 上管理着超过 10 亿美元的比特币和其他加密货币，并相信自己可以在晚上睡个好觉，而不用担心失去比特币。 开发人员已经制作了一些值得注意的应用程序，使 Mixin 的 TVL 在 DefiLlama 上排名第八。
 
@@ -33,7 +33,7 @@ Mixin 正在按时计划完成去中心化的组织转变，本文是 Observer M
 
 没有智能合约，Mixin 速度很快，而且在比特币创新的 UTXO 模型上总是可以更快。 此外，由于缺乏智能合约，Mixin 上的去中心化应用程序开发通过久经考验的技术和编程语言变得更加安全。 智能合约并不是去中心化应用的圣杯，以太坊已经通过无数的黑客攻击证明了这一点。
 
-![Alt text](image-2.png)
+![Alt text](Mixin的Observer是个MAO/image-2.png)
 
 即将推出的 Mixin Safe 是 Mixin Messenger 和 Mixin Kernel 的最后一个伴侣。 通过原生比特币多重签名和时间锁脚本，Mixin Safe 为比特币托管提供了无与伦比的安全性。 同时具有去中心化、可恢复、可继承的特点，Mixin Safe 是机构和高净值个人的选择，同时 Mixin Messnenger 无疑是客户日常使用的最佳选择。
 
